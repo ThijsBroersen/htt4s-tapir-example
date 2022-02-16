@@ -1,0 +1,17 @@
+{
+    "files.watcherExclude": {
+        "**/.cache": true,
+        "**/target": true,
+        "**/node_modules": true
+    },
+    "search.exclude":{
+        "**/.git/**":true,
+        "**/target":true,
+        "**/node_modules":true,
+        "**/.bloop":true,
+        "**/.metals":true
+     },
+    "metals": {
+        "bloopSbtAlreadyInstalled": true
+    }
+}
